@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "336660517042",
+    "project_id": "kuizz-7dbd4",
+    "storage_bucket": "kuizz-7dbd4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:336660517042:android:ad6fb6266bb0b14d9279ab",
+        "android_client_info": {
+          "package_name": "com.mruraza.kuuizz"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "336660517042-0loi9oscmdijn1qflgq4kbbgp66u9dgp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBdQBsjKq2pbZouU3S8isRmglMeN8fCLYM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "336660517042-0loi9oscmdijn1qflgq4kbbgp66u9dgp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:orientation="horizontal">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="361dp"
+        android:layout_height="140dp"
+        app:cardUseCompatPadding="true"
+        app:cardCornerRadius="20dp"
+        android:elevation="100dp"
+        android:background="@color/colorPrimary"
+        android:backgroundTint="#E1A6EC">
+
+        <LinearLayout
+            android:layout_width="342dp"
+            android:layout_height="127dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textViewquestioninbookmark"
+                android:layout_width="wrap_content"
+                android:layout_height="61dp"
+                android:layout_margin="5dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:text="what is teh fulle \nform of afa dfasdfasfsadfsafsafsafsafsal fa fsjaf" />
+
+            <TextView
+                android:id="@+id/textView2answerinbookmark"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_gravity="center"
+                android:text="fj afjas fsad fdasjf as"
+                android:textStyle="bold"
+                android:textColor="#ED0606"/>
+
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+    <ImageView
+        android:id="@+id/deletebottonofbookmark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/baseline_delete_24" />
+
+</LinearLayout>

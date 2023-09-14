@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".questions"
+    android:orientation="vertical"
+    android:background="#FFF6D3">
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:id="@+id/toolbar_qsn"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorPrimary"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="KUIZZ"
+            android:textStyle="bold"
+            android:textColor="#FB103F"
+            android:textSize="25sp"
+            android:layout_gravity="center"
+           />
+    </androidx.appcompat.widget.Toolbar>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:orientation="vertical"
+        android:background="#96FFB3"
+        android:layout_marginBottom="20dp">
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="172dp"
+            android:layout_margin="5dp"
+            android:elevation="100dp"
+            android:padding="10dp"
+            app:cardCornerRadius="25dp"
+            app:cardUseCompatPadding="true">
+
+            <TextView
+                android:id="@+id/textviewforqsn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:padding="5dp"
+                android:text="Question appears here"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/question_numberrr"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end|bottom"
+                android:text="5/8"
+                android:textColor="#00B0FF"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.498"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.911" />
+
+            <ImageView
+                android:id="@+id/bookmakkk"
+                android:layout_width="66dp"
+                android:layout_height="39dp"
+                android:layout_marginStart="116dp"
+                android:src="@drawable/baseline_bookmark_border_24"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/question_numberrr"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.896" />
+
+            <ImageView
+                android:layout_width="52dp"
+                android:layout_height="42dp"
+                android:src="@drawable/baseline_share_24"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/question_numberrr"
+                app:layout_constraintHorizontal_bias="0.119"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="1.0"
+                android:id="@+id/shareeee"/>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/optioncontainer"
+        android:background="#FFF6D3">
+        <Button
+            android:layout_width="match_parent"
+            android:padding="5dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/rrroundd_only_for_btn"
+            android:text="Button1"
+            android:backgroundTint="#989898"
+            android:textColor="@color/black"
+            android:layout_height="wrap_content"
+            android:id="@+id/opt1"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:padding="5dp"
+            android:textColor="@color/black"
+            android:layout_margin="10dp"
+            android:backgroundTint="#989898"
+            android:background="@drawable/rrroundd_only_for_btn"
+            android:text="Button2"
+            android:layout_height="wrap_content"
+            android:id="@+id/opt2"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:padding="5dp"
+            android:layout_margin="10dp"
+            android:textColor="@color/black"
+            android:backgroundTint="#989898"
+            android:background="@drawable/rrroundd_only_for_btn"
+            android:text="Button3"
+            android:layout_height="wrap_content"
+            android:id="@+id/opt3"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:padding="5dp"
+            android:layout_margin="10dp"
+            android:textColor="@color/black"
+            android:backgroundTint="#989898"
+            android:background="@drawable/rrroundd_only_for_btn"
+            android:text="Button4"
+            android:layout_height="wrap_content"
+            android:id="@+id/opt4"
+            />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end|bottom"
+        android:layout_margin="5dp"
+        android:padding="5dp">
+
+        <Button
+            android:id="@+id/prevoiusbtn"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:backgroundTint="#62FF0E"
+            android:enabled="true"
+            android:text="Previous"
+
+            />
+
+        <Button
+            android:id="@+id/nextbtn"
+            android:layout_width="150dp"
+            android:enabled="false"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60dp"
+            android:backgroundTint="#FA0000"
+            android:text="next" />
+    </LinearLayout>
+</LinearLayout>
